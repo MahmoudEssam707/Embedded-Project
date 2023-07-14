@@ -1,26 +1,16 @@
 #include <iostream>
-#include <cmath>
+#define acceleration 32
 using namespace std;
 
-bool isPerfecSquare(int number){
-    long int x;
-    if(number>=0){
-       x = sqrt(number);
-       return(x*x == number);
-    }else{
-        return false;
-    }
-
-
+int freefall(int time){
+    return (acceleration * (time * time)) / 2;
 }
 
 int main() {
-    unsigned int input;
-    cin >> input;
-    if (isPerfecSquare(input)){
-        cout << "It's Perfect square";
-    } else {
-        cout << "It isn't perfect square";
-    }
+    int time;
+    cout << "Please enter the time in seconds: ";
+    cin >> time;
+    int distance = freefall(time);
+    cout << "You entered " << time << " in seconds,so the distance is " << distance << " feet." << endl;
     return 0;
 }
