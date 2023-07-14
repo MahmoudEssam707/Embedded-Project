@@ -1,0 +1,66 @@
+//include directive iostream to make the definitions of cin and cout available to the program
+#include <iostream>
+//using directive to make the names cin and cout available to our program
+using namespace std;
+//declare a variable Liter with a double value 0.264172
+double const LITER = 0.264172;
+//declare a function milesPerGallon which take 2 integer variables ml and lt and return double value 
+double milesPerGallon(int ml, int lt);
+//declare main function
+int main ()
+{
+//declare a variable options of value charachter    
+	char options;
+//declare 2 variables lt and ml with integer variables	
+	int lt, ml;
+//loop to run while the variable options value is r or R	
+	do 
+	{
+//display Enter the number of Liters of gasoline: in output stream	    
+	  cout << "Enter the number of Liters of gasoline:";
+//extract from input stream the value and assign it to lt variable 	  
+	  cin >> lt;
+//display  Enter the number of miles traveled by the car: in output stream
+  cout <<"Enter the number of miles traveled by the car: ";
+//extract from input stream the value and assign it to ml variable
+       cin >> ml;
+//display Number of miles per gallon: in output  stream     
+	   cout << "Number of miles per gallon:"  
+//display value returned from function milesPerGallon and end output stream	   
+            << milesPerGallon(ml, lt) << endl;
+//display To repeat enter 'R' or enter 'E' to exit: in output stream           
+		cout << "To repeat enter 'R' or enter 'E' to exit:";
+//extract from input stream value and assign it to options variable		
+		cin >> options;
+	} while (options == 'r' || options == 'R');
+// return value 0 for main function
+	return 0;
+}
+//function which retuns double value of miles/gallons by taking integer values of miles and liters 
+double milesPerGallon(int m, int l)
+{
+//declare variable gallons with a double value    
+	double gallons;
+//assign variable gallons the value of multiplication of constant Liter and variable l	
+	gallons = LITER * l;
+//return the value of division of variable m over variable gallons	
+	return (m/gallons);
+}
+//DECLARE LITER as constant double
+//DECLARE Function(int ml,int lt)
+//DECLARE options as charachter
+//DECLARE lt, ml as integers
+//DO
+//DISPLAY "Enter the number of Liters of gasoline:"
+//READ lt from user
+//DISPLAY "Enter the number of miles traveled by the car: "
+//READ ml from user
+//DISPLAY "Number of miles per gallon:", milesPerGallon(ml, lt)
+//DISPLAY "To repeat enter 'R' or enter 'E' to exit:"
+//READ options from user
+//WHILE options = 'R' or 'r'
+//FUNCTION milesPerGallon(int m, intl)
+//DECLARE gallons as double
+//COMPUTE gallons= LITER*l 
+//RETURN (m/gallons)
+//END FUNCTION
