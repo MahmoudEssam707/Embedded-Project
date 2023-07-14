@@ -24,7 +24,21 @@ int main() {
     lower(c);
     return 0;
 }
-
+//Function Upper(c)
+//Display " " + "c" + " " + "c" + " " + "c"
+//Display " " +"c" +" " + "c"
+//END FUNCTION
+//Function lower(c)
+//Display "  " + "c" + "    " + "c"
+//Display "   " + "c" + " " + "c" + " " + "c"
+//END FUNCTION
+//DECLARE c as CHARACTER
+//DISPLAY "Please put the character :"
+//READ c from user
+//Call UPPER(c)
+//for from 1 to 5
+//Display " " + "c"
+//call LOWER(c)
 /*
 Write a program that inputs a character
 from the keyboard and then outputs a large
