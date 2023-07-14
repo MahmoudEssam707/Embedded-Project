@@ -14,6 +14,7 @@ int main() {
     cout << "You entered " << time << " in seconds,so the distance is " << distance << " feet." << endl;
     return 0;
 }
+
 // FUNCTION freefall(time)
 // return (acceleration * (time * time)) / 2)
 //END FUNCTION

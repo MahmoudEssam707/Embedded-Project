@@ -29,7 +29,6 @@ int main() {
         cout << "Interest charged: $" << interest << endl;
         cout << "Total amount due with interest: $" << total_with_interest << endl;
         cout << "Minimum payment: $" << minimum_payment << endl;
-
         // Ask the user if they want to repeat the calculation
         cout << "Do you want to calculate again? (Y/N) ";
         cin >> repeat;

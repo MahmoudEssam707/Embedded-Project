@@ -27,5 +27,3 @@ temperature range, the program should output the temperature and the correspondi
 velocity ≈ 331.3 + 0.61 × Tc
 */
 
-/*
-1- INTIALIZE start_temp and end_temp
