@@ -19,7 +19,16 @@ int main() {
 
     return 0;
 }
-
+//FUNCTION velocity_rule(Tc)
+//return  331.3+0.61*Tc
+//END FUNCTION
+//DECLARE start_temp,end_temp as integar
+//DISPLAY "Please put your start temp : "
+//READ start_temp from user
+//call precision(1)
+// for i = start_temp to end_temp
+//DISPLAY "At " + i + " degrees Celsius the velocity of sound is " + velocity_rule(i) + " m/s\n"
+//END FOR
 /*
 Write a program that allows the user to input a starting and an ending temperature. Within this
 temperature range, the program should output the temperature and the corresponding velocity in

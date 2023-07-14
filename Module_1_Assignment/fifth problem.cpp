@@ -37,6 +37,53 @@ int main() {
 
     return 0;
 }
+
+//DECLARE account_balance, interest, total_with_interest, minimum_payment as unsigned integar
+//DECLARE repeat as character
+//do
+//DISPLAY "Please enter your account balance: $"
+// READ account_balance from user
+//if account_balance <= 1000
+//  COMPUTE interest = round(account_balance * 0.015)
+//else
+//COMPUTE interest = round(1000 * 0.015 + (account_balance - 1000) * 0.01)
+//END IF
+//COPMUTE total_with_interest = account_balance + interest
+ //if total_with_interest <= 10
+//minimum_payment = total_with_interest
+ //else
+ //COMPUTE minimum_payment = max(10, int(round(total_with_interest * 0.1)));
+//END IF
+
+//DISPLAY"Interest charged: $" + interest + "\n"
+//DISPLAY "Total amount due with interest: $" + total_with_interest + "\n"
+// DISPLAY"Minimum payment: $" + minimum_payment + "\n"
+//DISPLAY "Do you want to calculate again? (Y/N) "
+//READ repeat from user
+//while repeat == 'Y' or repeat == 'y'
+//END WHILE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 Write a program to compute the interest due, total amount due, and the
 minimum payment for a revolving credit account. The program accepts the

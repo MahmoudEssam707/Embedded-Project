@@ -43,6 +43,46 @@ int main() {
     cout << "The sum of digits is: " << value << endl;
     return 0;
 }
+//FUNCTION bool isPerfectSquare(int number)
+//if number < 0
+//return false
+    //END FUNCTION
+    //DECLARE x as int = sqrt(number)
+    //return x * x == number
+//EBD
+// FUNCTION reverseDigits(int number)
+    //DECLARE s as string = to_string(number)
+    //for i = s.length() to 0 step -1
+      // DISPLAY s[i];
+    //END FUNCTION
+    //DISPLAY "\n";
+//END
+//FUNCTION int calculateSum(int input){
+    //DECLARE sum as integar= 0;
+    //do
+        //COMPUTE sum = sum + input%10
+        //COMPUTE input = input/10;
+        //END
+     // while input!=0
+     //END while
+    //return sum
+
+    //DECLARE input as integar
+    //DISPLAY "Enter an integer: "
+   // READ input from user
+    if isPerfectSquare(input)
+       //DISPLAY"It's a perfect square."
+     else
+        //DISPLAY "It's not a perfect square."
+   //END IF
+    //DISPLAY "The reverse of the input is: "
+     //call reverseDigits(input);
+   //DECLARE value as integar = calculateSum(input);
+    //DISPLAY "The sum of digits is: " + value
+    //return 0
+
+
+
 /*
 Write a program that takes a positive integer as input from the user and performs the following
 tasks:

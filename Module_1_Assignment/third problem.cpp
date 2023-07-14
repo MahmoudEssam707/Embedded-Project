@@ -38,6 +38,7 @@ int main() {
 //Call UPPER(c)
 //for from 1 to 5
 //Display " " + "c"
+//END FOR
 //call LOWER(c)
 /*
 Write a program that inputs a character
