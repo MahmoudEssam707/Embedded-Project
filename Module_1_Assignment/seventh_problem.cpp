@@ -16,7 +16,6 @@ void input(double* m1,double* m2, double* d){
     cin>>*m2;
     cout<<"what is distance between the two objects in centimeters?"<<endl;
     cin>>*d;
-
 }
 //Force function to calculator Force
 double Force(double m1 , double m2 , double d){
