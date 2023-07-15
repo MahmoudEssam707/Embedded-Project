@@ -1,13 +1,10 @@
 #include <iostream>
 #include <cmath>
-#include <math.h>
-
+#define G 6.673*pow(10,-8)
 using namespace std;
-const double G=6.673*pow(10,-8);
 double m1;
 double m2;
 double d;
-double f;
 void input(double* m1,double* m2, double* d){
     cout<<"what is mass of object 1 in grams?"<<endl;
     cin>>*m1;
@@ -15,7 +12,6 @@ void input(double* m1,double* m2, double* d){
     cin>>*m2;
     cout<<"what is distance between the two objects in centimeters?"<<endl;
     cin>>*d;
-
 
 }
 double Force(double m1 , double m2 , double d){
