@@ -34,3 +34,22 @@ int main() {
   }
   cout << "\n";
 }
+/*
+function bubbleSort(arr, ssize)
+    for each step in the data after performing 1 swap
+        for each element in the array
+            compare it with its next element
+            if it is greater than the next element
+                swap the elements
+            end if
+        end for
+    end for
+end function
+
+function main()
+    initialize an array of numbers
+    calculate the size of the array
+    sort the array using bubble sort
+    print the sorted array
+end function
+*/
