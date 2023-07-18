@@ -1,0 +1,11 @@
+https://www.javatpoint.com/iot-advantage-and-disadvantage
+https://www.checkpoint.com/cyber-hub/network-security/what-is-iot/what-is-an-iot-gateway/#:~:text=An%20IoT%20gateway%20is%20a,the%20cloud%20and%20IoT%20devices.
+https://www.javatpoint.com/fog-computing-vs-cloud-computing
+https://www.sam-solutions.com/blog/fog-computing-vs-cloud-computing-for-iot-projects/
+https://cedalo.com/blog/http-vs-mqtt-for-iot/ 
+https://cloud.google.com/blog/products/iot-devices/http-vs-mqtt-a-tale-of-two-iot-protocols 
+https://www.emqx.com/en/blog/what-is-the-mqtt-protocol
+https://pediaa.com/what-is-the-difference-between-run-time-error-and-syntax-error/
+https://codehs.com/tutorial/david/errors-in-java
+https://www.geeksforgeeks.org/enumeration-in-cpp/
+https://www.programiz.com/cpp-programming/enumeration
