@@ -38,4 +38,15 @@ int main() {
     double forcee=Force(m1,m2,d);
     result(m1,m2,d,forcee);
 }
-
+/*
+Define the universal gravitational constant G which is equal to 6.673*pow(10,-8).
+Declare global variables m1, m2, and d.
+Define the input function to set the values of m1, m2, and d by taking pointers to the variables as parameters and using cin to get input from the user.
+Define the Force function to calculate the force between two objects by taking m1, m2, and d as parameters and returning the calculated force using the formula (G*m1*m2)/(d*d).
+Define the result function to display the results of the calculations by taking m1, m2, d, and the calculated force as parameters and using cout to display the values.
+In the main function:
+a. Call the input function to get the values of m1, m2, and d.
+b. Calculate the force between the two objects by calling the Force function with the values of m1, m2, and d.
+c. Display the results by calling the result function with the values of m1, m2, d, and the calculated force.
+End the program.
+*/

@@ -1,6 +1,7 @@
 //import libraries
 #include <iostream>
 #include <cmath>
+#define PI 3.14
 using namespace std;
 
 double pizza_1_diametar;
@@ -9,16 +10,11 @@ double pizza_1_R;
 double pizza_1_area;
 double pizza_1_pricePERarea;
 
-
-
 double pizza_2_diametar;
 double pizza_2_price;
 double pizza_2_R;
 double pizza_2_area;
 double pizza_2_pricePERarea;
-
-
-
 
 void input(double* pizza_1_diametar,double* pizza_1_price ,double* pizza_2_diametar,double* pizza_2_price){
     cout<<"what is diametar of pizza 1 in cm ?"<<endl;

@@ -3,20 +3,25 @@
 using namespace std;
 
 float velocity_rule(int Tc){
+    // retrieving value of velocity
     return 331.3+0.61*Tc;
 }
 
 int main() {
-    int start_temp,end_temp;
+    // init the starting temperature, and ending.
+    unsigned int start_temp,end_temp;
+    // calling for each temperature
     cout << "Please put your start temp : ";
     cin >> start_temp;
     cout << "Please put your end temp : ";
     cin >> end_temp;
+    // make the value fixed, and setting 1 digit after point
+    cout.setf(ios::fixed);
     cout.precision(1);
+    // printing all values between start and end based on that I = start time, and end value till reach end temperature.
     for (int i =start_temp;i<=end_temp;i++){
         cout << "At " << i << " degrees Celsius the velocity of sound is " << velocity_rule(i) << " m/s" <<endl;
     }
-
     return 0;
 }
 //FUNCTION velocity_rule(Tc)

@@ -2,7 +2,7 @@
 #include <cmath>
 #include <string>
 using namespace std;
-
+// if for example : value of 5*5 = 25, then checking of the 25, it should retrieve integer squared value
 bool isPerfectSquare(int number){
     if (number < 0) {
         return false;
@@ -10,7 +10,7 @@ bool isPerfectSquare(int number){
     int x = sqrt(number);
     return x * x == number;
 }
-
+// will print value in the reflected shape : 123 = 321
 void reverseDigits(int number){
     string s = to_string(number);
     for(int i=s.length(); i>=0; i--){
@@ -18,7 +18,7 @@ void reverseDigits(int number){
     }
     cout << endl;
 }
-
+// calculate sum off all values : 123 = 1+2+3 = 6
 int calculateSum(int input){
     int sum = 0;
     do {
@@ -29,16 +29,21 @@ int calculateSum(int input){
 }
 
 int main() {
+    // taking input from user
     int input;
+    // simple print
     cout << "Enter an integer: ";
     cin >> input;
+    // if the value isn't smaller than 0, then will retrieve perfect square if value it true
     if (isPerfectSquare(input)){
         cout << "It's a perfect square." << endl;
     } else {
         cout << "It's not a perfect square." << endl;
     }
     cout << "The reverse of the input is: ";
+    // reversing it
     reverseDigits(input);
+    // sum result value
     int value = calculateSum(input);
     cout << "The sum of digits is: " << value << endl;
     return 0;
@@ -49,10 +54,10 @@ int main() {
     //END FUNCTION
     //DECLARE x as int = sqrt(number)
     //return x * x == number
-//EBD
+//END
 // FUNCTION reverseDigits(int number)
     //DECLARE s as string = to_string(number)
-    //for i = s.length() to 0 step -1
+    //for i = s.length() from 0 to length of this data by -1
       // DISPLAY s[i];
     //END FUNCTION
     //DISPLAY "\n";
@@ -70,9 +75,9 @@ int main() {
     //DECLARE input as integar
     //DISPLAY "Enter an integer: "
    // READ input from user
-    if isPerfectSquare(input)
+   //if isPerfectSquare(input)
        //DISPLAY"It's a perfect square."
-     else
+     //else
         //DISPLAY "It's not a perfect square."
    //END IF
     //DISPLAY "The reverse of the input is: "
