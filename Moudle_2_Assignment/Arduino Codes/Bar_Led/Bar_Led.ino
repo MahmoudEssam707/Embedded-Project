@@ -24,5 +24,5 @@ void loop() {
     }
   }
 
-  delay(50); // Add a short delay to reduce flicker
+  delay(50); // Add a short delay 
 }
