@@ -1,17 +1,17 @@
 // Your First C++ Program
 #include <iostream>
-#define size 5
+#define num_elements 5
 using namespace std;
 int array_sum_function(int sum[]){
     int sum_result=0;
-    for(int number=0; number < size ;number++){
+    for(int number=0; number < num_elements ;number++){
         cout << " " << sum[number];
         sum_result+=sum[number]; 
     }
     return sum_result;
 }
 int main() {
-    int array [size] = {5, 10, 15, 20, 25};
+    int array [num_elements] = {5, 10, 15, 20, 25};
     int sum = array_sum_function(array);
     cout << " , The sum of all this numbers = " << sum << endl;
 }
@@ -22,11 +22,15 @@ the following values: 5, 10, 15, 20, 25. Then, using a loop to calculate
 and display the sum of all the numbers in the array
 */
 /*
-1-declare constant called size with value of 5
-2-declare variable called sum to store the sum of array
-3-declare array with size of declared size in first point and putting from 5 to 25 by increasing 5 as sequentially
-4-Starting for loop with i starting from 0, and smaller than the size of array, and increasing by 1
-5-printing each value in array to make sure it's right in calling
-6-will store summation of all this values in sum variable
-7-printing the result of sum
+1-declare constant called num_elements with value of 5
+2-Creating function called array_sum_function to take input array and retrieving summation
+    function will contains
+    1.1-varaible called sum_result
+    1.2-for loop to trace all array values
+        1.1.1-loop will print each value in array to make sure that all values are choose succesfully 
+        1.1.2-storing summation of all this values into sum_result
+    1.3-returning the value of sum
+3-in main function declaring array with size of "num_elements" and put the needed values
+4-declaring sum variable and putting it equal to the function passed the array into
+5-printing the values of the array and printing sum value
 */
