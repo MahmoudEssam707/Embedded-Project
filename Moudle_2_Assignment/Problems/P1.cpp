@@ -2,13 +2,17 @@
 #include <iostream>
 #define size 5
 using namespace std;
-int main() {
-    int sum=0;
-    int array [size] = {5, 10, 15, 20, 25};
+int array_sum_function(int sum[]){
+    int sum_result=0;
     for(int number=0; number < size ;number++){
-        cout << " " << array[number];
-        sum+=array[number];
+        cout << " " << sum[number];
+        sum_result+=sum[number]; 
     }
+    return sum_result;
+}
+int main() {
+    int array [size] = {5, 10, 15, 20, 25};
+    int sum = array_sum_function(array);
     cout << " , The sum of all this numbers = " << sum << endl;
 }
 
