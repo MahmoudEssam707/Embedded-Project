@@ -23,3 +23,15 @@ const int n = 4;
     cout << "Sum of given array is " << sum(arr, n);
     return 0;
 }
+//INITIALIZE iostream library
+//FUNCTION sum(int arr[],int n)
+//DECLARE integer sum=0
+//FOR (int i=0, i<n,i++)
+//COMPUTE sum=arr[i]+sum
+//ENDFOR
+//RETURN sum
+//ENDFUNCTION
+//DECLARE integer array arr={12,3,4,15}
+//DECLARE integer n=4
+//DISPLAY "Sum of given array is "+ sum(arr, n)
+//return 0
