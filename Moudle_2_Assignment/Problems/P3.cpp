@@ -18,8 +18,13 @@ int maxProduct(int arr[], int n) {
 
 // Driver program to test above functions
 int main() {
-    int arr[] = { 10, 3, 5, 6, 20 };
-    int n = sizeof(arr) / sizeof(arr[0]);
+    int n;
+    cout << "Enter the size of the array: ";
+    cin >> n;
+    int arr[n];
+    cout << "Enter " << n << " integers: ";
+    for (int i = 0; i < n; i++)
+        cin >> arr[i];
 
     int max_prod = maxProduct(arr, n);
 
@@ -30,7 +35,6 @@ int main() {
 
     return 0;
 }
-
 /*
 Initialize function max_of_Product with parameters arr[] and n
 2. If n is less than 3, return -1

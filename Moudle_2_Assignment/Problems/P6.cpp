@@ -7,19 +7,19 @@ int factorial(int n) {
     if (n < 0) {
         return -1; // Factorial is not defined for negative numbers
     }
-
-    int result = 1;
-    for (int i = 1; i <= n; i++) {
-        result *= i;
+    if (n == 0) {
+        return 1; // Base case: factorial of 0 is 1
     }
-    return result;
+    // will perform same function "Recursive "
+    return n * factorial(n - 1);
 }
 
 int main() {
     int num;
+    // here will take input from user
     cout << "Enter a number: ";
     cin >> num;
-
+    // storing variable of factorial in fact
     int fact = factorial(num);
     if (fact == -1) {
         cout << "Factorial is not defined for negative numbers." << endl;

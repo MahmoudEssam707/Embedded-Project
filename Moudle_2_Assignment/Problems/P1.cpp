@@ -2,7 +2,7 @@
 #include <iostream>
 #define num_elements 5
 using namespace std;
-// Declaring needed function with ar
+// Declaring needed function with array
 int array_sum_function(int sum[]){
     // declaring the value we need to store the sum
     int sum_result=0;
