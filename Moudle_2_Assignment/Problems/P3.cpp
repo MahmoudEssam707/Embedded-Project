@@ -30,3 +30,23 @@ int main() {
 
     return 0;
 }
+
+/*
+Initialize function max_of_Product with parameters arr[] and n
+2. If n is less than 3, return -1
+END IF
+Initialize max_product as INT_MIN
+Loop through the array with index i from 0 up to n-2(for loop with index "i" iterates through each element in the array from the beginning up to the third-to-last element.)
+    a. Loop through the array with index j from i+1 up to n-1(for loop with index "j" iterates through each element in the array from "i+1" up to the second-to-last element.)
+        i. Loop through the array with index k from j+1 up to n(for loop with index "k" iterates through each element in the array from "j+1" up to the last element.)
+End for
+            1. Find the product of arr[i], arr[j], and arr[k]
+            2. If the product is greater than max_product, update max_product with the product
+Return max_product
+END FUNCTION
+Declare an array arr with values {10, 3, 5, 6, 20} and size n as the size of the array divided by the size of the first element
+8. Call the max_of_Product function with parameters arr[] and n and store the result in max
+9. If max is equal to -1, print "No Triplet Exists"
+10. Else, print "Maximum product is " concatenated with max.
+END IF
+*/

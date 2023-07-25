@@ -1,6 +1,6 @@
-#define LDR_PIN A0
-#define BUZZER_PIN 8
-#define LED_PIN 2
+#define LDR_PIN 34   // GPIO 34 for the LDR input
+#define BUZZER_PIN 13 // Use GPIO 5 for the buzzer output
+#define LED_PIN 12    // Use GPIO 2 for the LED output
 
 int threshold = 500; // adjust this value to set the threshold
 bool alarmState = false;
@@ -26,9 +26,9 @@ void loop() {
   
   if (alarmState) {
     digitalWrite(LED_PIN, HIGH); // turn on LED
-    delay(200); // wait for 500 milliseconds
+    delay(100); // wait for 500 milliseconds
     digitalWrite(LED_PIN, LOW); // turn off LED
-    delay(200); // wait for 500 milliseconds
+    delay(100); // wait for 500 milliseconds
   } else {
     digitalWrite(LED_PIN, LOW); // turn off LED
   }
