@@ -1,0 +1,10 @@
+https://www.electrorules.com/esp32-timer-and-interrupts/
+https://www.fierceelectronics.com/sensors/what-ir-sensor#:~:text=Active%20infrared%20sensors%20both%20emit,is%20detected%20by%20the%20receiver.
+https://robu.in/ir-sensor-working/
+https://www.electronicwings.com/esp32/keypad-interfacing-with-esp32
+https://chat.openai.com/?model=text-davinci-002-render-sha
+https://lastminuteengineers.com/arduino-keypad-tutorial/
+https://esp32tutorials.com/i2c-lcd-esp32-esp-idf/
+https://medium.com/@ceavinrufus/connecting-the-esp32-world-with-i2c-communication-52ae13f07b6c
+https://www.seeedstudio.com/blog/2019/09/25/uart-vs-i2c-vs-spi-communication-protocols-and-uses/
+https://fabacademy.org/2022/labs/vigyanashram/students/vrushabh-zunjurkar/week13.html

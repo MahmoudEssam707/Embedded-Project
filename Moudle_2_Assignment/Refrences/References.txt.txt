@@ -1,5 +1,0 @@
-https://gertech.se/gertech/files/ESP32_Specification.pdf
-https://en.wikipedia.org/wiki/ESP32
-https://byjusexamprep.com/difference-between-microprocessor-and-microcontroller-i
-https://linuxhint.com/is-esp32-a-microprocessor/
-https://www.javatpoint.com/difference-between-analog-signals-and-digital-signals
