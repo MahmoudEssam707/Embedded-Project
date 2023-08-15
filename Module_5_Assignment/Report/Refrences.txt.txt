@@ -1,0 +1,6 @@
+TCP IP : 
+HTTP and its different versions : 
+Pub/sub model :
+MQTT Protocol : 
+ID token vs Access Token : 
+Firebase Realtime Database : 
