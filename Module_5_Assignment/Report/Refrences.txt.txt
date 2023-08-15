@@ -1,6 +1,6 @@
-TCP IP : 
-HTTP and its different versions : 
-Pub/sub model :
-MQTT Protocol : 
-ID token vs Access Token : 
-Firebase Realtime Database : 
+TCP IP : https://www.guru99.com/difference-tcp-ip-vs-osi-model.html
+HTTP and its different versions : https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP
+Pub/sub model : https://aws.amazon.com/what-is/pub-sub-messaging/
+MQTT Protocol : https://aws.amazon.com/what-is/mqtt/#:~:text=MQTT%20is%20a%20standards%2Dbased,constrained%20network%20with%20limited%20bandwidth. / https://www.javatpoint.com/mqtt-protocol
+ID token vs Access Token : https://auth0.com/blog/id-token-access-token-what-is-the-difference/
+Firebase Realtime Database : https://firebase.google.com/docs/database
