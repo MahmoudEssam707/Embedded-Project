@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2023-08-24T09:30:20.553Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="r3EoE9rskwdmWTaN3Lfm" version="21.6.9" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1737" dy="978" grid="1" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="3l1kaDH6fwk3LpLnsDT3-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#23445D;fontColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3l1kaDH6fwk3LpLnsDT3-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="459" y="38" as="sourcePoint" />
+            <mxPoint x="325" y="159" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="326" y="38" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3l1kaDH6fwk3LpLnsDT3-0" value="&lt;h1&gt;&lt;b&gt;Firebase&lt;/b&gt;&lt;/h1&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;labelBackgroundColor=none;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;direction=east;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="523" y="13" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3l1kaDH6fwk3LpLnsDT3-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=0;strokeColor=#23445D;labelBackgroundColor=none;fontColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3l1kaDH6fwk3LpLnsDT3-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="614" y="38" as="sourcePoint" />
+            <mxPoint x="845" y="159" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="844" y="38" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3l1kaDH6fwk3LpLnsDT3-6" value="&lt;h1&gt;&lt;b&gt;Flutter&lt;/b&gt;&lt;/h1&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;labelBackgroundColor=none;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;direction=east;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="265" y="159" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3l1kaDH6fwk3LpLnsDT3-7" value="&lt;h1&gt;&lt;b&gt;ESP32&lt;/b&gt;&lt;/h1&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;labelBackgroundColor=none;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;direction=east;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="785" y="159" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
