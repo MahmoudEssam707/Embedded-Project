@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "679777121175",
+    "project_id": "fir-visualstudio-d089e",
+    "storage_bucket": "fir-visualstudio-d089e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679777121175:android:e1e915b53a579c5a26cad2",
+        "android_client_info": {
+          "package_name": "com.example.firebase_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679777121175-cpsp65c2g167am92727b41l61oqrjc94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDADshUI7Rjw6jynScYy5-6RYRgbZrs9mk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679777121175-cpsp65c2g167am92727b41l61oqrjc94.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "679777121175-h62ei9ir66t518r44bgcd6cfqg3fu20u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebaseProject"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
