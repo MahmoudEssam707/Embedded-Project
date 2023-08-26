@@ -65,7 +65,8 @@ class _SideBarState extends State<SideBar> {
             leading: Icon(Icons.sensor_door),
             title: Text(
               "Control Door",
-              style: GoogleFonts.robotoCondensed(fontSize: 20),
+              style: GoogleFonts.robotoCondensed(
+                  fontSize: 20, fontWeight: FontWeight.bold),
             ),
             onTap: () {
               Navigator.of(context).pushReplacementNamed("DoorControl");
@@ -76,7 +77,8 @@ class _SideBarState extends State<SideBar> {
             leading: Icon(Icons.sensors_sharp),
             title: Text(
               "Sensors of home",
-              style: GoogleFonts.robotoCondensed(fontSize: 20),
+              style: GoogleFonts.robotoCondensed(
+                  fontSize: 20, fontWeight: FontWeight.bold),
             ),
             onTap: () {
               Navigator.of(context).pushReplacementNamed("SensorReads");
@@ -87,7 +89,8 @@ class _SideBarState extends State<SideBar> {
             leading: Icon(Icons.person),
             title: Text(
               "Information",
-              style: GoogleFonts.robotoCondensed(fontSize: 20),
+              style: GoogleFonts.robotoCondensed(
+                  fontSize: 20, fontWeight: FontWeight.bold),
             ),
             onTap: () {
               Navigator.of(context).pushReplacementNamed("UserData");

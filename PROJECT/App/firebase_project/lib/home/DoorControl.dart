@@ -70,30 +70,53 @@ class _ServoControlState extends State<ServoControl> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Container(
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20),
-                  color: Colors.green[100],
-                ),
-                padding: EdgeInsets.all(20),
-                child: Text(
-                  "Sensor of door",
-                  style: GoogleFonts.robotoCondensed(
-                    color: Colors.teal[800],
-                    fontWeight: FontWeight.bold,
-                    fontSize: 35,
+              SizedBox(
+                height: 10,
+              ),
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(20),
+                      color: Colors.green[100],
+                    ),
+                    width: double.infinity,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        SizedBox(height: 10),
+                        Icon(
+                          Icons.door_front_door,
+                          size: 50,
+                          color: Colors.teal[800],
+                        ),
+                        Container(
+                          padding: EdgeInsets.all(15),
+                          child: Text(
+                            "Sensor of door",
+                            style: GoogleFonts.robotoCondensed(
+                              color: Colors.teal[800],
+                              fontWeight: FontWeight.bold,
+                              fontSize: 35,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ),
               SizedBox(height: 20),
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 40.0),
+                padding: const EdgeInsets.symmetric(horizontal: 10.0),
                 child: Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
                     color: Colors.green[100],
                   ),
-                  padding: EdgeInsets.all(20),
+                  padding: EdgeInsets.all(30),
+                  width: double.infinity,
                   child: Slider(
                     min: 130,
                     max: 172,
@@ -105,20 +128,37 @@ class _ServoControlState extends State<ServoControl> {
                 ),
               ),
               SizedBox(height: 20),
-              Container(
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20),
-                  color: Colors.green[100],
-                ),
-                padding: EdgeInsets.all(20),
-                child: Text(
-                  "Current angle: $servo",
-                  style: GoogleFonts.robotoCondensed(
-                    color: Colors.teal[800],
-                    fontWeight: FontWeight.bold,
-                    fontSize: 35,
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(20),
+                      color: Colors.green[100],
+                    ),
+                    width: double.infinity,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        SizedBox(height: 10),
+                        Container(
+                          padding: EdgeInsets.all(15),
+                          child: Text(
+                            "Current angle: $servo",
+                            style: GoogleFonts.robotoCondensed(
+                              color: Colors.teal[800],
+                              fontWeight: FontWeight.bold,
+                              fontSize: 35,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
+              ),
+              SizedBox(
+                height: 20,
               ),
             ],
           ),

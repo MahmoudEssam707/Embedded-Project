@@ -54,15 +54,19 @@ class _UserProfileState extends State<UserProfile> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text("Change Password"),
+          title: Text(
+            "Change Password",
+            style: GoogleFonts.cabinCondensed(),
+          ),
           content: Column(
             mainAxisSize: MainAxisSize.min,
-            children: <Widget>[
+            children: [
               TextField(
                 controller: newPasswordController,
                 obscureText: true,
                 decoration: InputDecoration(
                   labelText: "New Password",
+                  labelStyle: GoogleFonts.robotoCondensed(color: Colors.teal),
                   focusedBorder: UnderlineInputBorder(
                     borderSide: BorderSide(color: Colors.teal),
                   ),
@@ -76,12 +80,21 @@ class _UserProfileState extends State<UserProfile> {
                 controller: confirmPasswordController,
                 obscureText: true,
                 decoration: InputDecoration(
-                    labelText: "Confirm Password", fillColor: Colors.teal),
+                  labelText: "Confirm Password",
+                  labelStyle: GoogleFonts.robotoCondensed(color: Colors.teal),
+                  focusedBorder: UnderlineInputBorder(
+                    borderSide: BorderSide(color: Colors.teal),
+                  ),
+                  enabledBorder: UnderlineInputBorder(
+                    borderSide: BorderSide(color: Colors.teal),
+                  ),
+                ),
               ),
             ],
           ),
           actions: [
-            TextButton(
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(backgroundColor: Colors.teal),
               onPressed: () async {
                 if (newPasswordController.text ==
                     confirmPasswordController.text) {
@@ -108,7 +121,10 @@ class _UserProfileState extends State<UserProfile> {
               onPressed: () {
                 Navigator.pop(context);
               },
-              child: Text("Cancel"),
+              child: Text(
+                "Cancel",
+                style: GoogleFonts.robotoCondensed(color: Colors.teal),
+              ),
             ),
           ],
         );
@@ -128,7 +144,8 @@ class _UserProfileState extends State<UserProfile> {
         ),
         title: Text(
           "Data",
-          style: GoogleFonts.robotoCondensed(color: Colors.white),
+          style: GoogleFonts.robotoCondensed(
+              color: Colors.white, fontWeight: FontWeight.bold),
         ),
         backgroundColor: Colors.teal,
       ),

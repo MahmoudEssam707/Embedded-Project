@@ -13,11 +13,8 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  final user = FirebaseAuth.instance.currentUser;
   FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
       FlutterLocalNotificationsPlugin();
-  String firstName = '';
-  String lastName = '';
   @override
   void initState() {
     super.initState();
@@ -44,61 +41,71 @@ class _HomeScreenState extends State<HomeScreen> {
         ],
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Container(
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20), color: Colors.white),
-              child: Padding(
-                padding: const EdgeInsets.all(20.0),
-                child: Image(
-                  image: AssetImage('images/logo.png'),
-                  fit: BoxFit.fitWidth,
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: Colors.white),
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Image(
+                    image: AssetImage('images/logo.png'),
+                    fit: BoxFit.fitWidth,
+                  ),
                 ),
               ),
-            ),
-            SizedBox(height: 20),
-            Container(
-              decoration: BoxDecoration(
-                  color: Colors.grey[100],
-                  borderRadius: BorderRadius.circular(10)),
-              child: Padding(
-                padding: const EdgeInsets.all(10.0),
-                child: Text(
-                  "Hello $firstName $lastName",
-                  style: GoogleFonts.robotoCondensed(
-                      color: Colors.teal,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 20),
+              SizedBox(height: 20),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 30),
+                child: Container(
+                  padding: EdgeInsets.all(15),
+                  decoration: BoxDecoration(
+                      color: Colors.grey[100],
+                      borderRadius: BorderRadius.circular(10)),
+                  child: Text(
+                    "Hello, How are you?\nLet me start to tell you what's is this application do\n1-There exist Controlling your door in sidebar\n2-There's Sesnor page to check if trouble has happened to your home\n3-Your data and if you want to change current password\nHope for you Great journey! dev.Mahmoud Essam",
+                    style: GoogleFonts.robotoCondensed(
+                        color: Colors.teal,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20),
+                  ),
                 ),
               ),
-            ),
-            SizedBox(height: 10),
-            ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.teal,
-                foregroundColor: Colors.white,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10),
+              SizedBox(height: 10),
+              ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.teal,
+                  foregroundColor: Colors.white,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                ),
+                onPressed: () {
+                  Noti.showBigTextNotification(
+                      text: "Who are we?",
+                      body:
+                          "Hello i'm Mahmoud Essam, the developer of this app, With help of my team project",
+                      fln: flutterLocalNotificationsPlugin);
+                },
+                child: Padding(
+                  padding: const EdgeInsets.all(10.0),
+                  child: Text(
+                    "Press Here",
+                    style: GoogleFonts.robotoCondensed(fontSize: 15),
+                  ),
                 ),
               ),
-              onPressed: () {
-                Noti.showBigTextNotification(
-                    text: "Who are we?",
-                    body:
-                        "Hello i'm Mahmoud Essam, the developer of this app, With help of my team project",
-                    fln: flutterLocalNotificationsPlugin);
-              },
-              child: Padding(
-                padding: const EdgeInsets.all(10.0),
-                child: Text(
-                  "Press Here",
-                  style: GoogleFonts.robotoCondensed(fontSize: 15),
-                ),
+              SizedBox(
+                height: 20,
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );

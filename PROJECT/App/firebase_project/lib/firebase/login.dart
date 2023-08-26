@@ -52,8 +52,7 @@ class _LoginScreenState extends State<LoginScreen> {
             textColor: Colors.white,
           );
           // Navigate to the main page after successful sign-in
-          Navigator.of(context).pushReplacementNamed(
-              'HomeScreen'); // Replace 'MainScreen' with the actual name of your main page route
+          Navigator.of(context).pushReplacementNamed('HomeScreen');
         }
       }
     } catch (error) {
